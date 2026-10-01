@@ -1,4 +1,6 @@
-# BathysRDT Research License (Version 0.3) — English reference translation
+# BathysRDT Research License — English reference translation
+
+Version 1.0 (2026-10-02)
 
 **This is a reference translation. The Japanese text in `LICENSE` governs. If the two differ, the Japanese text prevails.**
 

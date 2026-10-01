@@ -30,10 +30,10 @@ BathysRDT-722M is a 722M-parameter recurrent-depth Transformer (a weight-shared 
 
 ## Usage
 
-準備中です。推論コード（`inference/`）と推論設定（`configs/`）は、ライセンス確定後に追加します。
+準備中です。推論コードは `inference/` にあります。推論設定（`configs/`）は検証後に追加します。
 
 ```bash
-python3 inference/bathysrdt_722m_infer_v110_20261002_0450.py --self-test
+python3 inference/bathysrdt_722m_infer_v111_20261002_0525.py --self-test
 ```
 
 必要なもの: Python 3、PyTorch、safetensors、numpy。テキスト入力には transformers（`trust_remote_code=True`）。
@@ -54,14 +54,14 @@ python3 inference/bathysrdt_722m_infer_v110_20261002_0450.py --self-test
 
 ## License
 
-コード・文書とモデルの重みは、**BathysRDT Research License**（[LICENSE](LICENSE)、日本語が正文。英語の参考訳は [LICENSE_EN.md](LICENSE_EN.md)）で提供します。
+コード・文書とモデルの重みは、**BathysRDT Research License Version 1.0**（[LICENSE](LICENSE)、日本語が正文。英語の参考訳は [LICENSE_EN.md](LICENSE_EN.md)）で提供します。
 
 - 非営利の研究・教育目的に限り利用できます（所属ではなく、利用行為の目的で判断します）。
 - 原重みの再配布はできません。重みは指定の配布元から入手してください。追加学習した派生重みは、同じライセンスで公開できます。
 - 特許その他の産業財産権についてのライセンスは許諾しません。
 - 商用利用には別途の書面契約が必要です。
 
-Code, documents and model weights are provided under the **BathysRDT Research License** for non-commercial research and educational use only. No patent license is granted. Commercial use requires a separate written agreement.
+Code, documents and model weights are provided under the **BathysRDT Research License Version 1.0** for non-commercial research and educational use only. No patent license is granted. Commercial use requires a separate written agreement.
 
 ## Related publication
 
