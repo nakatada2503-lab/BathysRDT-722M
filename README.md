@@ -54,8 +54,14 @@ python3 inference/bathysrdt_722m_infer_v110_20261002_0450.py --self-test
 
 ## License
 
-- Code: TBD
-- Weights: TBD
+コード・文書とモデルの重みは、**BathysRDT Research License**（[LICENSE](LICENSE)、日本語が正文。英語の参考訳は [LICENSE_EN.md](LICENSE_EN.md)）で提供します。
+
+- 非営利の研究・教育目的に限り利用できます（所属ではなく、利用行為の目的で判断します）。
+- 原重みの再配布はできません。重みは指定の配布元から入手してください。追加学習した派生重みは、同じライセンスで公開できます。
+- 特許その他の産業財産権についてのライセンスは許諾しません。
+- 商用利用には別途の書面契約が必要です。
+
+Code, documents and model weights are provided under the **BathysRDT Research License** for non-commercial research and educational use only. No patent license is granted. Commercial use requires a separate written agreement.
 
 ## Related publication
 
@@ -67,4 +73,5 @@ python3 inference/bathysrdt_722m_infer_v110_20261002_0450.py --self-test
 
 ## Contact
 
-TBD
+- 技術的な質問: GitHub Issues
+- ライセンス・商用利用の問い合わせ: 中村忠行 <tada2503@yahoo.co.jp>
