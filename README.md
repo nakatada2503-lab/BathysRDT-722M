@@ -1,6 +1,8 @@
 # BathysRDT-722M
 
-> **準備中** — 重みの配布（Hugging Face）は準備中です。
+> 重みは Hugging Face で配布しています（申請・承認制）: https://huggingface.co/Nakatada/BathysRDT-722M
+>
+> Weights are distributed on Hugging Face by request and approval.
 
 BathysRDT-722M は、重みを共有した再帰ブロックを深さ方向に繰り返し適用する Transformer（recurrent-depth Transformer）の 722M パラメータ版です。日本語テキストで、大規模な教師モデルからの知識蒸留により事前学習しました。
 
@@ -17,7 +19,8 @@ BathysRDT-722M is a 722M-parameter recurrent-depth Transformer (a weight-shared 
 
 - 重みファイルには 116 テンソルが入っています。出力層（`head.weight`）は埋め込み（`embed.weight`）と共有（tie）しており、読み込み時に復元します。
 - SHA-256 は、公開時点のモデルファイルとの同一性を確認するための識別子です（`SHA256SUMS` を参照）。
-- 重みの配布先: Hugging Face（準備中）。
+- 重みの配布先: [Hugging Face（Nakatada/BathysRDT-722M）](https://huggingface.co/Nakatada/BathysRDT-722M)。各チェックポイントは `700M/`、`1400M/` のフォルダにあります。
+- 重みの取得は申請・承認制です。非営利の研究・教育目的に限り、ライセンスへの同意が必要です。
 
 ## Validation
 
@@ -41,7 +44,7 @@ The two checkpoints were evaluated under identical conditions (50 held-out Japan
 
 ## Usage
 
-推論コードは `inference/`、推論設定は `configs/` にあります。重み（`model.safetensors`、`config.json`）は配布元から入手してください。
+推論コードは `inference/`、推論設定は `configs/` にあります。重み（`model.safetensors`、`config.json`）は [Hugging Face](https://huggingface.co/Nakatada/BathysRDT-722M) から入手してください（申請・承認制）。
 
 ```bash
 # 自己テスト（CPU、重み不要）
