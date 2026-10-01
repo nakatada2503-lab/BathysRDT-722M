@@ -59,7 +59,7 @@ python3 inference/bathysrdt_722m_infer_v110_20261002_0450.py --self-test
 
 ## Related publication
 
-中村忠行「精度差分観測による重み共有再帰Transformerの学習ダイナミクス解明 — Gate Decay振幅制御、FP32崩壊境界、および多制御器協調学習」Jxiv（JST プレプリントサーバ）. URL / DOI: TBD
+中村忠行「精度差分観測による重み共有再帰Transformerの学習ダイナミクス解明: Gate Decay振幅制御、FP32崩壊境界、および多制御器協調学習」Jxiv（JST プレプリントサーバ）, 2026. DOI: [10.51094/jxiv.6476](https://doi.org/10.51094/jxiv.6476)
 
 ## Patents
 
