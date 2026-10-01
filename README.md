@@ -92,7 +92,13 @@ Code, documents and model weights are provided under the **BathysRDT Research Li
 
 ## Patents
 
-関連する特許出願があります（ALTH-001〜006, ALTH-008〜012；特願2026-201413 他）。
+本モデルに関係する技術について、日本で特許出願をしています（特願2026-201413 ほか）。
+本リポジトリおよび BathysRDT Research License は、これらの特許出願・特許についての
+いかなる権利も許諾するものではありません（LICENSE 第5条）。
+
+Patent applications related to this model have been filed in Japan (including JP 2026-201413).
+Neither this repository nor the BathysRDT Research License grants any rights under these
+applications or any resulting patents (see LICENSE, Section 5).
 
 ## Contact
 
